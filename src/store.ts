@@ -6,7 +6,7 @@ import { CharItem, LogItem, packNameId } from './logManager/types';
 import { random } from 'lodash-es';
 import * as twColors from 'tailwindcss/colors';
 
-const diceAPIBase = 'https://logapi.yogsothothdice.top/api/dice/log';
+const diceAPIBase = 'https://logapi.yogsothothdice.top/dice/api';
 
 export const useStore = defineStore('main', {
   state: () => {
